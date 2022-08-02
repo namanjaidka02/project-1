@@ -1,24 +1,24 @@
 
-function fun(){
-     let fnum = document.getElementById("two").value;
+function add(){
+     let fnum = document.getElementById("number1").value;
      fnum = Number(fnum)
-     let snum = document.getElementById("three").value;
+     let snum = document.getElementById("number2").value;
      snum = Number(snum);
      let total = fnum + snum;
      document.getElementById("result").innerHTML = total;
 }
-function fun1(){
-    let fnum = document.getElementById("two").value;
+function subtract(){
+    let fnum = document.getElementById("number1").value;
      fnum = Number(fnum)
-     let snum = document.getElementById("three").value;
+     let snum = document.getElementById("number2").value;
      snum = Number(snum);
      let total = fnum - snum;
      document.getElementById("result").innerHTML = total;
 }
-function fun2(){
-    let fnum = document.getElementById("two").value;
+function multiply(){
+    let fnum = document.getElementById("number1").value;
      fnum = Number(fnum)
-     let snum = document.getElementById("three").value;
+     let snum = document.getElementById("number2").value;
      snum = Number(snum);
      let total = fnum * snum;
      document.getElementById("result").innerHTML = total;
