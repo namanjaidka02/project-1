@@ -23,3 +23,9 @@ function multiply(){
      let total = fnum * snum;
      document.getElementById("result").innerHTML = total;
 }
+function arithmetic(){
+     add();
+     subtract();
+     multiply();
+}
+arithmetic();
